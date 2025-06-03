@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile Page</title>
+  <style>
+    body {
+      background-color: #e6f7ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #003366;
+    }
+
+    h2 {
+      color: #003366;
+      margin-top: 30px;
+    }
+
+    img {
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    button,
+    input[type="submit"] {
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button {
+      background-color: #f2f2f2;
+      border: 1px solid #003366;
+    }
+
+    input[type="submit"] {
+      background-color: #003366;
+      color: white;
+      border: none;
+    }
+
+    form {
+      display: inline-block;
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to My Profile Page</h1>
+    <img src="C:\Users\aishw\Downloads\passport size photo.jpg" alt="Profile Photo" height="200" width="200" />
+    <p>I am Aishwarya Vallala, studying in BVRIT Hyderabad College of Engineering for Women in Information Technology.</p>
+
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+
+      <input type="submit" value="Submit"><br>
+
+      <!-- Moved the Say Hello button below Submit -->
+      <button type="button" onclick="sayHello()">Say Hello</button>
+    </form>
+  </div>
+
+  <script>
+    function sayHello() {
+      alert("Hello, Aishwarya!");
+    }
+  </script>
+</body>
+</html>
