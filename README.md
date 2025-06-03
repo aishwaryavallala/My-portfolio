@@ -7,7 +7,7 @@ To create a simple and visually appealing personal portfolio webpage that introd
 - CSS3: For styling and layout
 
 - JavaScript: For interactivity (e.g., alert on button click)
-- 
+ 
 # Steps Included
 - Designed a responsive HTML layout for a profile page
 
